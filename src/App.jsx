@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import './App.css'
+import TopNavBar from './components/TopNavBar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,50 +13,16 @@ function App() {
 
   return (
     <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-    ref={ref}
-          className="counter"
-          onClick={() => {
-            setCount((count) => {
-              return count + 1
-            })
+    <TopNavBar />
+    <div className="w-full h-10 p-5">
+    <span class="rounded-full bg-teal-100 px-3.5 py-0.5 text-sm whitespace-nowrap text-purple-700 dark:bg-teal-500 dark:text-white">
+      Live
+    </span>
 
-
-  useGSAP(() => {
-    gsap.fromTo(
-      ref.current,
-      {
-        x: 0,
-        y:0,
-      },
-      {
-        x: 0,
-        y:10,
-        duration: 1,
-        yoyo: true,
-      },
-    )
-  }, [ref])
-
-          }}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
+    <span class="rounded-full border border-teal-500 px-3.5 py-0.5 text-sm whitespace-nowrap text-purple-700 dark:text-white">
+      Live
+    </span>
+    </div>
     </>
   )
 }
