@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import './App.css'
-import TopNavBar from './components/TopNavBar'
+import TopNavBar from './components/navbar/TopNavBar'
 
 function App() {
   const [count, setCount] = useState(0)
