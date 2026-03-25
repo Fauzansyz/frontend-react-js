@@ -7,6 +7,7 @@ import { useGSAP } from '@gsap/react'
 import './App.css'
 import TopNavBar from './components/navbar/TopNavBar'
 import HeroSection from './components/hero/HeroSection'
+import FeatureSection from './components/feature/FeatureSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
     <>
     <TopNavBar />
       <HeroSection />
+    <FeatureSection />
     </>
   )
 }

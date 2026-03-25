@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <>
     <section class="bg-[var(--color-bg)] lg:grid lg:h-screen lg:place-content-center">
-      <div class="mx-auto w-screen max-w-7xl px-5 py-18 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
+      <div class="mx-auto w-screen max-w-7xl px-5 py-15 sm:px-6 sm:py-34 lg:px-8 lg:py-42">
         <div class="mx-auto max-w-prose text-center">
           <h1 class="text-4xl font-[500] text-[var(--text-h)] sm:text-6xl font-[var(--poppins)">
             Understand user flow and
