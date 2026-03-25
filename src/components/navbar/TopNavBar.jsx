@@ -1,7 +1,7 @@
 export default function TopNavBar() {
   return (
     <>
-    <header class="bg-transparent">
+    <header class="bg-[var(--color-bg)]">
       <div class="mx-auto flex h-16 max-w-7xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         <a class="block text-teal-600 dark:text-teal-300" href="#">
           <span class="sr-only">Home</span>
