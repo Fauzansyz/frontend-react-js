@@ -21,18 +21,6 @@ export default function TopNavBar() {
 
               <li>
                 <a class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
-                  Careers
-                </a>
-              </li>
-
-              <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
-                  History
-                </a>
-              </li>
-
-              <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
                   Services
                 </a>
               </li>
