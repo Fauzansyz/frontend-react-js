@@ -12,7 +12,7 @@ export default function FeatureSection(){
 
           <h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">High performance</h3>
 
-          <p class="mt-2 text-pretty text-gray-700 dark:text-gray-200">Optimized load times</p>
+          <p class="mt-2 text-pretty text-gray-700 dark:text-gray-200">Optimized speed load</p>
         </div>
 
         <div class="text-center">
