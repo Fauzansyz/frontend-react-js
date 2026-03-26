@@ -14,13 +14,28 @@ function App() {
   const [count, setCount] = useState(0)
   const ref = useRef(null)
 
-  const pricing = {
+  const pricing = [
+    {
     pricing: '$29',
     feature: [
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-    ]
-  }
+      '20 users logins per month',
+      'Unlimited projects',
+      'Unlimited features',
+      'Unlimited support',
+      '1Gbps data transfer'
+      ]
+    },
+    {
+    pricing: '$49',
+    feature: [
+      '100 users logins per month',
+      'Unlimited projects',
+      'Unlimited features',
+      'Unlimited support',
+      '15Gbps data transfer'
+      ]
+    }
+  ]
 
   return (
     <>
