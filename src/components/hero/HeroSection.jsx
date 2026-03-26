@@ -6,14 +6,14 @@ export default function HeroSection() {
     <section class="bg-[var(--code-bg)] lg:grid lg:h-screen lg:place-content-center">
       <div class="mx-auto w-screen max-w-7xl px-5 py-15 sm:px-6 sm:py-34 lg:px-8 lg:py-42">
         <div class="mx-auto max-w-prose text-center">
-          <h1 class="text-4xl font-[700] text-[var(--text-h)] sm:text-6xl font-[var(--poppins)">
+          <h1 class="text-4xl font-normal font-[800] text-[var(--text-h)] sm:text-6xl font-[var(--oswald)]">
             Understand user flow and
             <strong class="text-teal-400"> increase </strong>
             conversions
           </h1>
     <BadgesComponents />
 
-          <p class="mt-4 font-[200] font-[var(--mono)] text-pretty text-[var(--text-h)] sm:text-lg/relaxed">
+          <p class="mt-4 font-[200] font-normal font-[var(--oswald)] text-pretty text-[var(--text-h)] sm:text-lg/relaxed">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nisi. Natus, provident
             accusamus impedit minima harum corporis iusto.
           </p>
