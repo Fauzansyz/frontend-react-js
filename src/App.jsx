@@ -16,6 +16,7 @@ function App() {
 
   const pricing = [
     {
+    name: 'Child',
     pricing: '$29',
     feature: [
       '20 users logins per month',
@@ -26,6 +27,7 @@ function App() {
       ]
     },
     {
+    name:"Pioneer",
     pricing: '$49',
     feature: [
       '100 users logins per month',
@@ -34,7 +36,30 @@ function App() {
       'Unlimited support',
       '15Gbps data transfer'
       ]
-    }
+    },
+    {
+    name:"Explorer",
+    pricing: '$99',
+    feature: [
+      'Unlimited users logins per month',
+      'Unlimited projects',
+      'Unlimited features',
+      'Unlimited support',
+      'Unlimited data transfer'
+      ]
+    },
+     {
+    name:"Buisness",
+    pricing: '$199',
+    feature: [
+      'Unlimited users logins per month',
+      'Unlimited projects',
+      'Unlimited features',
+      'Unlimited support',
+      'Unlimited data transfer',
+      'Early access to new features'
+      ]
+     }
   ]
 
   return (
