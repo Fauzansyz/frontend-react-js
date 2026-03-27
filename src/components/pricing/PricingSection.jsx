@@ -3,7 +3,7 @@ export default function PricingSection({data}){
     <>
     <div className="mx-auto max-w-3xl px-8 py-10 sm:px-4 sm:py-12 lg:px-5">
     <div className="text-center p-10">
-    <h2 className="text-3xl font-bold text-[var(--text-h)]">Pricing</h2>
+    <h2 className="text-3xl font-bold font-(family-name:--inter) text-[var(--text-h)]">Pricing</h2>
     </div>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-center md:gap-8">
     {data.map((item, index) => (
