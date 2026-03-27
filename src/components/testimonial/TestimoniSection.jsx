@@ -1,7 +1,7 @@
 export default function TestimoniSection({data}) {
   return (
     <>
-    <div className="mx-auto max-w-3xl grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 items-center justify-center p-5 lg:p-4 sm:p-5 md:p-2">
+    <div className="mx-auto max-w-2xl gap-4 grid md:grid-cols-2 sm:gap-4 lg:gap-3 md:gap-3 sm:grid-cols-1 lg:grid-cols-2 items-center justify-center p-5 lg:p-4 sm:p-5 md:p-1">
     {data.map((item, index) => (
     <article key={index} className="rounded-xl border border-gray-700 bg-[var(--code-bg)] p-5 w-80 lg:p-5 sm :p-4 md:p-7">
 

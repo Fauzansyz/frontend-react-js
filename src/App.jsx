@@ -18,7 +18,14 @@ function App() {
   const userTestimonial = [
     {
       name: 'John Doe',
+      profileImage: 'https://images.unsplash.com/photo-1614644147724-2d4785d69962?auto=format&fit=crop&q=80&w=1160',
       category: 'CEO',
+      testimonial: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.',
+    },
+    {
+      name: 'AsepSurasep',
+      profileImage: 'https://images.unsplash.com/photo-1614644147724-2d4785d69962?auto=format&fit=crop&q=80&w=1160',
+      category: 'Founder',
       testimonial: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.',
     }
   ]
