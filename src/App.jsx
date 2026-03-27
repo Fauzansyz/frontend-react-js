@@ -15,6 +15,14 @@ function App() {
   const [count, setCount] = useState(0)
   const ref = useRef(null)
 
+  const userTestimonial = [
+    {
+      name: 'John Doe',
+      category: 'CEO',
+      testimonial: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.',
+    }
+  ]
+
   const pricing = [
     {
     name: 'Child',
@@ -69,7 +77,7 @@ function App() {
      <HeroSection />
       <FeatureSection />
      <PricingSection data={pricing} />
-    <TestimoniSection />
+    <TestimoniSection data={userTestimonial} />
     </>
   )
 }
