@@ -9,6 +9,7 @@ import TopNavBar from './components/navbar/TopNavBar'
 import HeroSection from './components/hero/HeroSection'
 import PricingSection from './components/pricing/PricingSection'
 import FeatureSection from './components/feature/FeatureSection'
+import TestimoniSection from './components/testimonial/TestimoniSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -67,7 +68,8 @@ function App() {
     <TopNavBar />
      <HeroSection />
       <FeatureSection />
-    <PricingSection data={pricing} />
+     <PricingSection data={pricing} />
+    <TestimoniSection />
     </>
   )
 }

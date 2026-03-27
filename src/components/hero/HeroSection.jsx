@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section class="bg-[var(--code-bg)] lg:grid lg:h-screen lg:place-content-center">
       <div class="mx-auto w-screen max-w-7xl px-5 py-15 sm:px-6 sm:py-34 lg:px-8 lg:py-42">
         <div class="mx-auto max-w-prose text-center">
-          <h1 class="text-4xl font-normal font-[800] text-[var(--text-h)] sm:text-6xl font-[var(--oswald)]">
+          <h1 class="text-4xl font-normal font-[800] text-[var(--text-h)] sm:text-6xl font-[var(--fira)]">
             Understand user flow and
             <strong class="text-teal-400"> increase </strong>
             conversions
