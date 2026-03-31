@@ -5,7 +5,7 @@ export default function PricingSection({data}){
     <div className="text-center p-10">
     <h2 className="text-3xl font-bold font-(family-name:--inter) text-[var(--text-h)]">Pricing</h2>
     </div>
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-2 md:gap-8">
     {data.map((item, index) => (
 
 <div class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
