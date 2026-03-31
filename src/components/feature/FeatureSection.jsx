@@ -7,7 +7,8 @@ export default function FeatureSection(){
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
     <motion.div
     initial={{ scale: 0 }}
-    animate={{ scale: 1 }}
+    whileInView={{ scale: 1 }}
+    viewport={{ once: false, amount: 0.4 }}
     transition={{ type: "spring", stiffness: 260, damping: 20, duration:0.5 }}>
         <div class="text-center">
           <div class="inline-flex rounded-lg bg-gray-100 p-3 text-gray-700 dark:bg-gray-800 dark:text-gray-200">
@@ -22,6 +23,11 @@ export default function FeatureSection(){
         </div>
     </motion.div>
 
+    <motion.div
+    initial={{ scale: 0 }}
+    whileInView={{ scale: 1 }}
+    viewport={{ once: false, amount: 0.4 }}
+    transition={{ type: "spring", stiffness: 260, damping: 20, duration:0.5 }}>
         <div class="text-center">
           <div class="inline-flex rounded-lg bg-gray-100 p-3 text-gray-700 dark:bg-gray-800 dark:text-gray-200">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -35,7 +41,13 @@ export default function FeatureSection(){
 
           <p class="mt-2 text-pretty text-gray-700 dark:text-gray-200">Every layer secured</p>
         </div>
+</motion.div>
 
+    <motion.div
+    initial={{ scale: 0 }}
+    whileInView={{ scale: 1 }}
+    viewport={{ once: false, amount: 0.4 }}
+    transition={{ type: "spring", stiffness: 260, damping: 20, duration:0.5 }}>
         <div class="text-center">
           <div class="inline-flex rounded-lg bg-gray-100 p-3 text-gray-700 dark:bg-gray-800 dark:text-gray-200">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -49,7 +61,13 @@ export default function FeatureSection(){
 
           <p class="mt-2 text-pretty text-gray-700 dark:text-gray-200">Adapt every aspect</p>
         </div>
+    </motion.div>
 
+    <motion.div
+    initial={{ scale: 0 }}
+    whileInView={{ scale: 1 }}
+    viewport={{ once: false, amount: 0.4 }}
+    transition={{ type: "spring", stiffness: 260, damping: 20, duration:0.5 }}>
         <div class="text-center">
           <div class="inline-flex rounded-lg bg-gray-100 p-3 text-gray-700 dark:bg-gray-800 dark:text-gray-200">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -63,6 +81,7 @@ export default function FeatureSection(){
 
           <p class="mt-2 text-pretty text-gray-700 dark:text-gray-200">Metrics that matter</p>
         </div>
+    </motion.div>
       </div>
     </div>
     </>
