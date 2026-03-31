@@ -25,3 +25,6 @@ npm run dev
 
 MIT
 
+## Contributors
+
+- [Fauzan adzma](https://github.com/Fauzansyz)
