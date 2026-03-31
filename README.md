@@ -1,4 +1,4 @@
-# React UI for Porto
+# React UI for Porto (example)
 
 A example frontend UI with react js
 
