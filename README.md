@@ -1,4 +1,4 @@
-# React UI for Porto
+# React UI for Porto (example)
 
 A example frontend UI with react js
 
@@ -25,3 +25,6 @@ npm run dev
 
 MIT
 
+## Contributors
+
+- [Fauzan adzma](https://github.com/Fauzansyz)
