@@ -8,7 +8,7 @@ export default function HeroSection() {
         <div class="mx-auto max-w-prose text-center">
           <h1 class="text-4xl font-normal font-[800] text-[var(--text-h)] sm:text-6xl font-(family-name:--inter)">
             Understand user flow and
-            <strong class="text-teal-400"> increase </strong>
+            <strong class="text-teal-500"> increase </strong>
             conversions
           </h1>
     <BadgesComponents />

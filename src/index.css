@@ -1,7 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --text: #6b6375;
+
+  /*Color theme*/
+  --color-primary: #408A71;
+  --color-secondary: #285A48;
+  --color-onPrimary: #091413;
+  --color-onSecondary: #B0E4CC;
   --text-h: #08060d;
   --bg: #fff;
   --border: #e5e4e7;
@@ -38,6 +43,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+
+    /*Color theme*/
+    --color-primary: #408A71;
+    --color-secondary: #285A48;
+    --color-onPrimary: #091413;
+    --color-onSecondary: #B0E4CC;
     --text: #9ca3af;
     --text-h: #f3f4f6;
     --bg: #16171d;
