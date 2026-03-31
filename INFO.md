@@ -1,4 +1,4 @@
-# frontend-react-js
+# frontend-react-js (example)
 A example frontend UI with react js
 
 ## Installation
