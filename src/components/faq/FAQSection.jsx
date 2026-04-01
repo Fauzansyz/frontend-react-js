@@ -1,9 +1,12 @@
 export default function FAQSection({data}){
   return (
     <>
-    <div class="space-y-4">
+    <div class="space-y-4 px-5">
+    <div className="text-center p-10">
+    <h2 className="text-3xl font-bold font-(family-name:--inter) text-[var(--text-h)]">Pricing</h2>
+    </div>
     {data.map((item, index) => (
-      <details class="group border-s-4 border-gray-200 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-800 [&amp;_summary::-webkit-details-marker]:hidden" open="">
+      <details class="group border-s-4 border-gray-200 bg-[var(--bg)] p-4 dark:border-gray-700 dark:bg-[var(--bg)] [&amp;_summary::-webkit-details-marker]:hidden" open="">
         <summary class="flex items-center justify-between gap-1.5 text-gray-900 dark:text-white">
           <h2 class="text-lg font-medium">{item.question}</h2>
 
