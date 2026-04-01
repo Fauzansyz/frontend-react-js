@@ -16,6 +16,25 @@ function App() {
   const [count, setCount] = useState(0)
   const ref = useRef(null)
 
+  const FAQData = [
+    {
+      question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.',
+      answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.'
+    },
+    {
+      question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.',
+      answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.'
+    },
+    {
+      question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.',
+      answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.'
+    },
+    {
+      question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.',
+      answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.'
+    }
+  ]
+
   const userTestimonial = [
     {
       name: 'John Doe',
@@ -86,7 +105,7 @@ function App() {
       <FeatureSection />
      <PricingSection data={pricing} />
     <TestimoniSection data={userTestimonial} />
-  <FAQSection />
+  <FAQSection data={FAQData} />
     </>
   )
 }
