@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/porto-ui-a/react-js-frontend/",
+  base: "/react-js-frontend/",
 });
