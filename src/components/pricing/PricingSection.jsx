@@ -1,7 +1,7 @@
 export default function PricingSection({data}){
   return (
     <>
-    <div class="max-w-7xl px-7 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+    <div class="max-w-7xl px-8 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 md:p-15">
     <div className="text-center p-10">
     <h2 className="text-3xl font-bold font-(family-name:--inter) text-[var(--text-h)]">Pricing</h2>
     </div>
