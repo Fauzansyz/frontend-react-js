@@ -10,6 +10,7 @@ import HeroSection from './components/hero/HeroSection'
 import PricingSection from './components/pricing/PricingSection'
 import FeatureSection from './components/feature/FeatureSection'
 import TestimoniSection from './components/testimonial/TestimoniSection'
+import FAQSection from './components/faq/FAQSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -85,6 +86,7 @@ function App() {
       <FeatureSection />
      <PricingSection data={pricing} />
     <TestimoniSection data={userTestimonial} />
+  <FAQSection />
     </>
   )
 }
